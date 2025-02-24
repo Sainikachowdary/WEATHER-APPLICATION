@@ -1,0 +1,65 @@
+STEP 1: Set Up the Development Environment
+
+1.1 Create a New Directory for the Project in terminal
+
+
+mkdir flask-weather-app
+cd flask-weather-app
+
+
+1.2 Create and Activate a Virtual Environment
+Run the following commands:
+
+python -m venv venv
+venv\Scripts\activate
+
+
+1.3 Install Flask and Requests Library
+
+pip install Flask requests
+
+STEP 2: Get an API Key from OpenWeather
+Go to OpenWeather and create an account.
+
+STEP 3: Create the Project Structure:
+
+flask-weather-app/
+
+├── app.py
+
+├── static/
+
+├── templates/
+    | index.html
+    | result.html
+├── venv/
+
+├── requirements.txt
+
+└── README.md
+
+
+3.2 Write the Flask Backend (app.py)
+Open app.py and add the following code:
+
+
+ >...... HERE APP_KEY should be changed with your app_key after logging in the openweatherapp.My app_key
+
+
+
+ 3.3 Create the Frontend (index.html)
+Inside the templates/ folder, create a file named index.html:
+
+
+3.4 Create the Weather Result Page (result.html)
+Inside the templates/ folder, create a file named result.html:
+
+
+>.... This will display the weather results.
+
+
+3.5 Create requirements.txt
+To list all dependencies, create a requirements.txt file and add:
+
+
+STEP 4: Nw run the app.py in vscode to get the output.
